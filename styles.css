@@ -1,0 +1,182 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+.nav,
+.hero {
+    background-color: #1f2937;
+    color: #f9faf8;
+    margin: 50;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: flex-start;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.links {
+    display: flex;
+    align-items: flex-end;
+    gap: 45px;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+
+}
+
+.hero h1 {
+    font-size: 75px;
+    font-weight: 500;
+}
+
+.hero img {
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-shrink: 1;
+    margin-left: 30px;
+}
+
+.hero .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f9faf8;
+    background-color: blue;
+    width: 100px;
+    height: 50px;
+    border-radius: 3cqmax;
+}
+
+.gallery {
+    background-color: white;
+    color: black;
+    margin: 50;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 56px;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cube {
+    max-width: 300px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.gallery img {
+    width: 300px;
+    height: 300px;
+}
+
+.quote {
+    background-color: grey;
+    color: black;
+    margin: auto;
+    padding: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote h1 {
+    font-style: italic;
+    font-weight: 200;
+    font-size: 35px;
+}
+
+.quote h2 {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.cta {
+    background-color: #f9faf8;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding-bottom: 52px;
+}
+
+.cta .button {
+    background-color: blue;
+    color: white;
+    width: 70%;
+    padding: 5%;
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction:row;
+    border-radius: 1cm;
+}
+
+.cta .button2 {
+    background-color: lightblue;
+    color: white;
+    padding: 5%;
+    width: 50px;
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-radius: 3cm;
+}
+
+.cta h1 {
+    font-style: italic;
+    font-size: 40px;
+    margin: 10px;
+}
+
+.cta h2 {
+    font-style: bold;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    color: grey;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
